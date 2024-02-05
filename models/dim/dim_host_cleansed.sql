@@ -1,8 +1,8 @@
 
 WITH host AS (
-    SELECT 
+    SELECT
         *
-    FROM 
+    FROM
         {{ref("src_host")}}
 )
 SELECT
