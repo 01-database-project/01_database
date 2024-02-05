@@ -1,9 +1,9 @@
 
-WITH host AS (
+WITH hosts AS (
     SELECT
         *
     FROM
-        {{ref("src_host")}}
+        {{ref("src_hosts")}}
 )
 SELECT
     host_id,
@@ -12,4 +12,4 @@ SELECT
     created_at,
     updated_at
 FROM 
-    host
+    hosts

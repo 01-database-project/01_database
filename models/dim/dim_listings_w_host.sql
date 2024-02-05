@@ -11,11 +11,11 @@ WITH listings AS (
     FROM 
         {{ref("dim_listings_cleansed")}}
 ),
-host AS (
+hosts AS (
     SELECT 
         *
     FROM 
-        {{ref("dim_host_cleansed")}}
+        {{ref("dim_hosts_cleansed")}}
 )
 
 SELECT
@@ -31,4 +31,4 @@ SELECT
 FROM 
     listings l
 LEFT JOIN 
-    host h ON l.host_id = h.host_id
+    hosts h ON l.host_id = h.host_id
