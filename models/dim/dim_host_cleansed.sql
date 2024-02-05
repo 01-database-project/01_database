@@ -11,4 +11,5 @@ SELECT
     Is_Superhost,
     created_at,
     updated_at
-FROM host
+FROM 
+    host
