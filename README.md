@@ -1,15 +1,9 @@
-Welcome to your new dbt project!
+## Mitt testdatabaseprosjekt.
+Dette er mitt git-repo for mitt testdatabaseprosjekt basert på dbt-snowflake. Dette ble laget slik at jeg har en plass til å teste ut forskjellige konsepter og funksjoner i dbt.
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
+Dette er fortsatt et prosjekt veldig i startfasen.
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+
+
