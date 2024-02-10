@@ -34,8 +34,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbtproject:
     +materialized: view
+    +post-hook:
+      - "GRANT SELECT ON {{ this }} TO ROLE REPORTER"
     dim:
       +materialized: table
     src:
-      +materialized: ephemeral
-
+      +materialized: ephemeral      
